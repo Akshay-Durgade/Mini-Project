@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+.main
+{
+    height: 100vh;
+    width: 100vw;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    padding:20px 0;
+}
+#img
+{
+    height:10vh;
+    width:20vw;
+    margin-left: 20px;
+}
+.navitems li
+{
+    list-style: none;
+    display: inline-block;
+}
+.navitems li a
+{
+    text-decoration:none;
+    color:black;
+    margin:1rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight:bolder;
+}
+.space
+{
+    background-color: white;
+    height: 3rem;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content
+{
+    font-family: sans-serif;
+    text-align: justify;
+    /*background-color: aqua;*/
+    width: 80vw;
+    height:100vh;
+    padding:50px 0px;
+}
+.heading_subtitle
+{
+    font-size:1.5rem;
+}
+.comment_recipe
+{
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding:40px;
+    border-bottom:rgb(0, 255, 251) 1px solid ;
+    margin:5rem;
+}
+.add_a_comment
+{
+    background-color:white;
+    border:1px black solid;
+    height:2rem;
+    width:10rem;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+.jump_to_recipe
+{
+    font-size: .875rem;
+    letter-spacing: 1px;
+    border:none;
+    height:2rem;
+    width:10rem;
+    background-color: rgba(18, 101, 163, 0.973);
+    border:none;
+    cursor:pointer;
+}
+.recipepic
+{
+    height:210vh;
+    width:70vw;
+    display:flex;
+    flex-direction: column;
+    border:1px solid red;
+    margin-bottom: 6rem;
+}
+#recipepic
+{
+    height: 56.2rem;
+    width:37.5rem;
+    padding:5rem;
+}
+#recipepic2
+{
+    height: 56.2rem;
+    width:37.5rem;
+}
+.description_of_recipe
+{
+    width: 39vw;
+    height:60vw;
+    border:green solid 1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align:left;
+}
+.best_wine
+{
+    line-height: 5rem;
+    font-size: ;
+}

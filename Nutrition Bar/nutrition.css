@@ -1,0 +1,78 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+fieldset
+{
+    margin:10px;
+    padding:5px;
+    width:34.75rem;
+    height:11rem;
+    border-radius: 0.3125rem;
+    border:#009578 solid 3px;
+}
+fieldset legend
+{
+    color:#009578;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight:600 ;
+}
+
+
+
+
+
+.nutrition-values-list
+{
+    padding-left:1rem;
+    padding-right:15rem;
+    border-bottom: 0.5px solid #009578;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.nutrition-values-li
+{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    color:#009578;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+.nutrition-parameters
+{
+    display:flex;
+    list-style: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height:1.8rem;
+    font-weight: 500;
+}
+.fat
+{
+    padding-left:2.5rem;
+}
+.nutrition-parameters .carb
+{
+    padding-left:4.8rem; 
+    padding-right: 3rem;
+}
+.nutrition-text
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    color:#666666;
+}
+#per-serving
+{
+    font-size: 0.75rem;
+}
